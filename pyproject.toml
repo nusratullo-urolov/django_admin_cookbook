@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-admin-cookbook"
+version = "0.1.0"
+description = ""
+authors = ["nusratullo2004 <122892486+nusratullo2004@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "django_admin_cookbook"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
